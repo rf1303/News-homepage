@@ -350,6 +350,9 @@ body {
   }
 }
 @media (min-width: 72em) {
+  body {
+    padding: 0;
+  }
   .wrappers__heads {
     width: min(69.5rem, 100%);
     margin-bottom: 4rem;
@@ -416,6 +419,10 @@ body {
     width: min(69.5rem, 100%);
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
+  }
+  .icon__image {
+    width: 4rem;
+    height: 2.5rem;
   }
 }
 
