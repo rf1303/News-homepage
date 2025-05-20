@@ -86,12 +86,8 @@ body {
   height: 1.75rem;
 }
 
-.button__list {
-  width: 1.85rem;
-  height: 1.85rem;
-}
-.button__list:focus {
-  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.5), -1px -1px 3px rgba(0, 0, 0, 0.5);
+.buttons__image:focus {
+  box-shadow: 0.2px 0.2px 3px rgba(0, 0, 0, 0.2), -0.2px -0.2px 2px rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.5s ease;
 }
 
